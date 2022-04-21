@@ -1,0 +1,25 @@
+<template>
+  <div class="container">
+    <h1>Hellenic Army unofficial website</h1>
+    <p class="lead fst-italic">-"Ἐλεύθερον τὸ Εὔψυχον"</p>
+    <hr />
+    <iframe
+      width="100%"
+      height="720"
+      src="https://www.youtube.com/embed/AFdmDgPhN5I"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      autoplay
+    ></iframe>
+  </div>
+</template>
+
+<script>
+export default {
+  loading: {
+    color: "blue",
+    height: "5px",
+  },
+};
+</script>
