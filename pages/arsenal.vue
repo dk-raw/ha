@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <h1>HA Fleet</h1>
+    <h1>HA Arsenal</h1>
     <p class="lead">
-      MBTs, APCs, AAVs, ASVs, MLRS, SAMs, UAVs, Attack Helicopters
-      Self-propelled artillery and other vehicles
+      MBTs, APCs, AAVs, ASVs, MLRS, SAMs, UAVs, IFVs, Howitzers, Attack
+      Helicopters and other motorized vehicles
     </p>
     <hr />
     <div
@@ -72,6 +72,17 @@ export default {
           ],
         },
         {
+          header: "M106A1/A2",
+          description:
+            "Self-propelled mortar carrier armed with a M2 Browning machine gun and a M30 106mm mortar, M29A1 81mm mortar or a E56 120mm mortar. It is based on a M113 APC and can hold 88 mortar rounds with various warheards.",
+          imageUrl: "m106.jpg",
+          tags: [
+            {
+              type: "IFV",
+            },
+          ],
+        },
+        {
           header: "M1117 Guardian",
           description:
             "Armoured, mine-resistant security vehicle with a top speed of 101km/h. It is equipped with a M2 Browning machine gun, Mk 19 grenade launcher and a MG3 machine gun as a secondary. The Hellenic Army operates 1200 M1117s.",
@@ -134,6 +145,28 @@ export default {
           tags: [
             {
               type: "Howitzer",
+            },
+          ],
+        },
+        {
+          header: "AH-64A/D Apache Longbow",
+          description:
+            "Twin turboshaft attack helicopter featuring target acquisition and designation, a night vision system, infrared countermeasures and a thermographic camera. Armed with AGM-114 or SPIKE NLOS ATGMs and Hydra 70 rockets.",
+          imageUrl: "ah64.jpg",
+          tags: [
+            {
+              type: "Attack Helicopter",
+            },
+          ],
+        },
+        {
+          header: "OH-58 Kiowa Warrior",
+          description:
+            "Attack helicopter used for armed observation and reconnaissance over the battlefield. It is equiped with AGM-114 ATGMs and Hydra 70 rockets. It also features a thermal imaging and laser range finder/designator system.",
+          imageUrl: "oh58.jpg",
+          tags: [
+            {
+              type: "Attack Helicopter",
             },
           ],
         },

@@ -1,5 +1,5 @@
 <template>
-  <div class="card" style="width: 18rem">
+  <div class="card" :id="header.replace(/ /g, '_')" style="width: 18rem">
     <a :href="require(`@/assets/images/${imageUrl}`)" target="_blank">
       <img
         :src="require(`@/assets/images/${imageUrl}`)"
@@ -9,7 +9,7 @@
       />
     </a>
     <div class="card-body">
-      <h5 class="card-title mb-0">{{ header }}</h5>
+      <h5 class="card-title">{{ header }}</h5>
       <p class="card-text">{{ description }}</p>
     </div>
     <div class="card-footer">
