@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <h1>Hellenic Army unofficial website</h1>
-    <p class="lead fst-italic">-"Ἐλεύθερον τὸ Εὔψυχον"</p>
+    <p class="lead fst-italic mb-0">-Ἐλεύθερον τὸ Εὔψυχον</p>
+    <small>"Freedom Stems from Valour"</small>
     <hr />
     <iframe
       width="100%"
