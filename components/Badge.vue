@@ -1,5 +1,5 @@
 <template>
-  <span :class="`badge bg-${color} m-1`">{{ text }}</span>
+  <span :class="`badge bg-${color} m-1`">{{ text.toUpperCase() }}</span>
 </template>
 
 <script>

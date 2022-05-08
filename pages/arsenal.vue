@@ -83,6 +83,17 @@ export default {
           ],
         },
         {
+          header: "Lynx KF-41",
+          description:
+            "Modern and highly advanced infantry fighting vehicle armed with a 35mm autocannon while providing all-round protection from 30mm rounds and ATGMs. It can carry 3+8 soldiers and it's equiped with an electrooptical sensor suite.",
+          imageUrl: "lynx.jpg",
+          tags: [
+            {
+              type: "IFV",
+            },
+          ],
+        },
+        {
           header: "M1117 Guardian",
           description:
             "Armoured, mine-resistant security vehicle with a top speed of 101km/h. It is equipped with a M2 Browning machine gun, Mk 19 grenade launcher and a MG3 machine gun as a secondary. The Hellenic Army operates 1200 M1117s.",
@@ -133,7 +144,7 @@ export default {
           imageUrl: "phz-2000.jpg",
           tags: [
             {
-              type: "Howitzer",
+              type: "Self-propelled Howitzer",
             },
           ],
         },
@@ -144,7 +155,7 @@ export default {
           imageUrl: "m109a2.jpg",
           tags: [
             {
-              type: "Howitzer",
+              type: "Self-propelled Howitzer",
             },
           ],
         },
@@ -167,6 +178,34 @@ export default {
           tags: [
             {
               type: "Attack Helicopter",
+            },
+          ],
+        },
+        {
+          header: "NH-90 TTH",
+          description:
+            "Multi role tactical military helicopter primarily used for transporting Special Forces Units. It is fitted with an infrared suppression system, wire strike protection system, forward looking infrared and helmet mounted display. The NH90 possesses the lowest radar signature in its class.",
+          imageUrl: "nh90.jpg",
+          tags: [
+            {
+              type: "Helicopter",
+            },
+            {
+              type: "Tactical Transport",
+            },
+          ],
+        },
+        {
+          header: "CH-47DG Chinook",
+          description:
+            "Twin engine heavy-lift transport helicopter used for transporting heavy payloads and troops in inaccessible areas. It features 2 Lycoming T55-GA-714A turboshaft engines with a combined power output of 7,458 kW. The CH-47 can achieve speeds of up to 170 knots.",
+          imageUrl: "ch47.jpg",
+          tags: [
+            {
+              type: "Helicopter",
+            },
+            {
+              type: "Tactical Transport",
             },
           ],
         },
