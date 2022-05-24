@@ -23,8 +23,27 @@
           <li class="nav-item">
             <NuxtLink to="/" class="nav-link">Home</NuxtLink>
           </li>
-          <li class="nav-item">
-            <NuxtLink to="/arsenal" class="nav-link">Arsenal</NuxtLink>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              data-bs-toggle="dropdown"
+            >
+              Arsenal
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <NuxtLink to="/arsenal/vehicles" class="dropdown-item"
+                  >Vehicles</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/arsenal/weapons" class="dropdown-item"
+                  >Arms &#38; Weapons</NuxtLink
+                >
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

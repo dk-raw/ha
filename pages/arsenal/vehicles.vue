@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>HA Arsenal</h1>
+    <h1>HA Vehicle Arsenal</h1>
     <p class="lead">
       MBTs, APCs, AAVs, ASVs, MLRS, SAMs, UAVs, IFVs, Howitzers, Attack
       Helicopters and other motorized vehicles
@@ -72,13 +72,27 @@ export default {
           ],
         },
         {
+          header: "M113A1/A2",
+          description:
+            "Fully tracked armored personnel carrier armed with an M2 Browning machine gun carrying 15 troops. It features 28-44mm all-round 5083 alloy armor that protects from small arms fire and a top speed of 68km/h.",
+          imageUrl: "m113.jpg",
+          tags: [
+            {
+              type: "APC",
+            },
+          ],
+        },
+        {
           header: "M106A1/A2",
           description:
             "Self-propelled mortar carrier armed with a M2 Browning machine gun and a M30 106mm mortar, M29A1 81mm mortar or a E56 120mm mortar. It is based on a M113 APC and can hold 88 mortar rounds with various warheards.",
           imageUrl: "m106.jpg",
           tags: [
             {
-              type: "IFV",
+              type: "APC",
+            },
+            {
+              type: "Mortar carrier",
             },
           ],
         },
@@ -111,7 +125,7 @@ export default {
           imageUrl: "cougar.jpg",
           tags: [
             {
-              type: "IMV",
+              type: "ASV",
             },
           ],
         },
@@ -151,11 +165,25 @@ export default {
         {
           header: "M109A1/A2/A3/A5",
           description:
-            "Self-propelled howitzer with a M126 155mm cannon. It has a rate of fire of 1 rpm sustained and a maximum range of 21km. It can also be linked with other M109s or PhZ 2000s for enchanched precision and firepower.",
+            "Self-propelled howitzer with a M126 155mm cannon. It has a rate of fire of 1 rpm sustained and a maximum range of 21km. It can also be linked with other M109s or PhZ 2000s for enchanched firepower with coordinated firing.",
           imageUrl: "m109a2.jpg",
           tags: [
             {
               type: "Self-propelled Howitzer",
+            },
+          ],
+        },
+        {
+          header: "SAGEM Sperwer",
+          description:
+            "Short range reconnaissance unmaned aerial vehicle capable of delivering real-time thermal and TV images of enemy posotions to it's base while targeting and guiding artillery fire. The Sperwer has a 5 hour endurance.",
+          imageUrl: "sperwer.jpg",
+          tags: [
+            {
+              type: "UAV",
+            },
+            {
+              type: "Reconnaissance",
             },
           ],
         },

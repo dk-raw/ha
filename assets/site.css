@@ -57,14 +57,14 @@ h5 {
   border-bottom: 1px solid hsl(0, 0%, 25%) !important;
 }
 
-.navbar .nav-link.nuxt-link-exact-active {
-  color: hsl(206, 70%, 68%);
+.dropdown-item.nuxt-link-exact-active {
+  background-color: hsl(206, 70%, 68%);
   transition: all 0.2s ease-in-out;
 }
 
-.navbar .nav-link.nuxt-link-exact-active:hover,
-.navbar .nav-link.nuxt-link-exact-active:focus {
-  color: hsl(206, 70%, 75%);
+.dropdown-item.nuxt-link-exact-active:hover,
+.dropdown-item.nuxt-link-exact-active:focus {
+  background-color: hsl(206, 70%, 68%);
 }
 
 .navbar-toggler {

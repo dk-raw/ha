@@ -10,7 +10,17 @@
     </a>
     <div class="card-body">
       <h5 class="card-title">{{ header }}</h5>
-      <p class="card-text">{{ description }}</p>
+      <p v-if="description" class="card-text">{{ description }}</p>
+      <ul
+        v-if="characteristics"
+        class="p-0 mb-0"
+        style="list-style-position: inside; list-style: none"
+      >
+        <li v-for="characteristic in characteristics" :key="characteristic.id">
+          <span class="fw-bold">{{ characteristic.type }}:</span>
+          <span>{{ characteristic.value }}</span>
+        </li>
+      </ul>
     </div>
     <div class="card-footer">
       <Badge
@@ -37,7 +47,11 @@ export default {
     },
     description: {
       type: String,
-      required: true,
+      required: false,
+    },
+    characteristics: {
+      type: Array,
+      required: false,
     },
     tags: {
       type: Array,
