@@ -28,7 +28,7 @@ export default {
     return {
       vehicles: [
         {
-          header: "Leopard 2A6 HEL/2A4 GR",
+          header: "Leopard 2A7/2A6 HEL",
           description:
             "21st century Main Battle Tank armed with a Rheinmetall 120mm gun and fitted with enchanced composite armour and a V12 twin-turbo engine outputing 1,103kW with a top spedd of 70km/h.",
           imageUrl: "leopard-2a6.jpg",

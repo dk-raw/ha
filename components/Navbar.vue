@@ -27,7 +27,6 @@
             <a
               class="nav-link dropdown-toggle"
               href="#"
-              id="navbarDropdown"
               data-bs-toggle="dropdown"
             >
               Arsenal
@@ -41,6 +40,27 @@
               <li>
                 <NuxtLink to="/arsenal/weapons" class="dropdown-item"
                   >Arms &#38; Weapons</NuxtLink
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              Structure
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <NuxtLink to="/structure/elements" class="dropdown-item"
+                  >Elements</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/structure/composition" class="dropdown-item"
+                  >Composition</NuxtLink
                 >
               </li>
             </ul>

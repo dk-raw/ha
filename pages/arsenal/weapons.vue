@@ -18,6 +18,47 @@
         />
       </div>
     </div>
+    <h4>Other weapons include</h4>
+    <ul>
+      <li>H&K USP</li>
+      <li>Baretta M8</li>
+      <li>Colt M1911A1</li>
+      <li>Glock 17</li>
+      <li>FN FAL</li>
+      <li>H&K MP5</li>
+      <li>H&K A1</li>
+      <li>FN MAG</li>
+      <li>Rheinmetall MG3</li>
+      <li>M2 Browning</li>
+      <li>M60</li>
+      <li>Barrett M82A1M</li>
+      <li>Barrett M95</li>
+      <li>Steyr SSG08</li>
+      <li>M6C-210</li>
+      <li>M19</li>
+      <li>M29</li>
+      <li>MO-81-61</li>
+      <li>M30</li>
+      <li>E44-E1</li>
+      <li>E56</li>
+      <li>M203/203PI</li>
+      <li>H&K GMG</li>
+      <li>Mk19 Mod3</li>
+      <li>M79 Blooper</li>
+      <li>ACL-89 STRIM</li>
+      <li>M2 Carl Gustav</li>
+      <li>AT4</li>
+      <li>M72 LAW</li>
+      <li>RPG-18</li>
+      <li>M67</li>
+      <li>M40A1</li>
+      <li>BGM-71 TOW</li>
+      <li>MILAN I/II</li>
+      <li>9K111 Fagot</li>
+      <li>9M133 Kornet E</li>
+      <li>Spike NLOS</li>
+      <li>FIM-92 Stinger</li>
+    </ul>
   </div>
 </template>
 
