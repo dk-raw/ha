@@ -2,7 +2,8 @@
   <div class="container">
     <h1>HA Arms &#38; Weapons Arsenal</h1>
     <p class="lead">
-      Rifles, Pistols, Machine Guns, Mortars, Grenade Launchers and ATGMs
+      Rifles, Pistols, Machine Guns, Mortars, Grenade Launchers, MANPADS and
+      ATGMs
     </p>
     <hr />
     <div
@@ -57,7 +58,6 @@
       <li>9K111 Fagot</li>
       <li>9M133 Kornet E</li>
       <li>Spike NLOS</li>
-      <li>FIM-92 Stinger</li>
     </ul>
   </div>
 </template>
@@ -84,16 +84,16 @@ export default {
           ],
         },
         {
-          header: "M16A2/A3/A4",
-          imageUrl: "m16.jpg",
+          header: "FIM-92 Stinger",
+          imageUrl: "stinger.jpg",
           characteristics: [
-            { type: "Cartridge", value: "5.56x45 mm NATO" },
-            { type: "Rate of fire", value: "700-900 rounds/min" },
-            { type: "Muzzle velocity", value: "960m/s" },
+            { type: "Warhead", value: "3kg HE" },
+            { type: "Guidance", value: "Infrared homing" },
+            { type: "Ragne", value: "8km" },
           ],
           tags: [
             {
-              type: "Rifle",
+              type: "MANPADS",
             },
           ],
         },
@@ -104,6 +104,20 @@ export default {
             { type: "Cartridge", value: "5.56x45 mm NATO" },
             { type: "Rate of fire", value: "700-950 rounds/min" },
             { type: "Muzzle velocity", value: "910m/s" },
+          ],
+          tags: [
+            {
+              type: "Rifle",
+            },
+          ],
+        },
+        {
+          header: "M16A2/A3/A4",
+          imageUrl: "m16.jpg",
+          characteristics: [
+            { type: "Cartridge", value: "5.56x45 mm NATO" },
+            { type: "Rate of fire", value: "700-900 rounds/min" },
+            { type: "Muzzle velocity", value: "960m/s" },
           ],
           tags: [
             {
