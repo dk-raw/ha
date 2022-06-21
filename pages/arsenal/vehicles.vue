@@ -174,6 +174,28 @@ export default {
           ],
         },
         {
+          header: "ASRAD HELLAS",
+          description:
+            "Advanced HUMVEE-mounted short range air defense system with a range of 8km. It fires the STINGER missiles and is equiped with infrared search and track sensors. The Hellenic Army operates 60 ASRAD HELLASs.",
+          imageUrl: "asrad.jpg",
+          tags: [
+            {
+              type: "SHORAD",
+            },
+          ],
+        },
+        {
+          header: "TOR M1",
+          description:
+            "Advanced HUMVEE-mounted short range air defense system with a range of 8km. It fires the STINGER missiles and is equiped with infrared search and track sensors. The Hellenic Army operates 60 ASRAD HELLASs.",
+          imageUrl: "tor.jpg",
+          tags: [
+            {
+              type: "SHORAD",
+            },
+          ],
+        },
+        {
           header: "SAGEM Sperwer",
           description:
             "Short range reconnaissance unmaned aerial vehicle capable of delivering real-time thermal and TV images of enemy posotions to it's base while targeting and guiding artillery fire. The Sperwer has a 5 hour endurance.",
